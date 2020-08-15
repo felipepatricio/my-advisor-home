@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "presentation",
+  "info": {
+    "name": "presentation"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "Texto": {
+      "type": "richtext"
+    }
+  }
+}

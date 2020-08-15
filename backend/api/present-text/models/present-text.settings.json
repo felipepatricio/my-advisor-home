@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "present_texts",
+  "info": {
+    "name": "presentation-text"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "main": {
+      "type": "text",
+      "maxLength": 1200,
+      "minLength": 100
+    }
+  }
+}

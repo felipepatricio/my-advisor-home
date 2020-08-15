@@ -1,0 +1,12 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_sections",
+  "info": {
+    "name": "about-section"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {}
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/present-texts",
+      "handler": "present-text.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/present-texts/count",
+      "handler": "present-text.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/present-texts/:id",
+      "handler": "present-text.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/present-texts",
+      "handler": "present-text.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/present-texts/:id",
+      "handler": "present-text.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/present-texts/:id",
+      "handler": "present-text.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
