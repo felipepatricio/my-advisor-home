@@ -1,0 +1,17 @@
+
+.navbar-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  height: 60px;
+}
+
+.navbar-left { 
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+}
+.navbar-nav > a {
+  padding: 0 16px;
+  color: #505F98;
+}

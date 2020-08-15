@@ -1,0 +1,44 @@
+.about-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  margin: 24px 0;
+}
+
+.about {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: 40px 0;
+  flex-grow: 2;
+}
+
+.about-image {
+  flex: 1;
+  max-width: 440px;
+}
+
+.about-text-block {
+  flex:1;
+  flex-flow: column wrap;
+  max-width: 480px;
+}
+
+.about-text-block > h1 {
+  color: #091133;
+  font-weight: 400;
+  font-size: 2.2rem;
+}
+
+.about-text-block > p {
+  padding-top: 16px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 417px) {
+  .about-image {
+    flex: 1;
+    max-width: 100%;
+  }
+}
