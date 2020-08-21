@@ -13,7 +13,7 @@ function About() {
             <>
               {abouts.map(( { title, text, image} ) => (
                 <div className="about">
-                  <img className="about-image" src={`http://localhost:1337${image[0].url}`} />
+                  <img alt="title" className="about-image" src={`https://boiling-beyond-15489.herokuapp.com/${image[0].url}`} />
                   <div className="about-text-block">
                     <h1>{title}</h1>
                     <p>{text}</p>
