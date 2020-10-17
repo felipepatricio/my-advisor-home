@@ -20,17 +20,12 @@ function Nav() {
 
         <div id="navbarBasicExample" className="navbar-menu">
           <div className="navbar-start">
-            <a className="navbar-item">
-              Home
-            </a>
-
-            <a className="navbar-item">
+            <a href="#about-us"  className="navbar-item">
               Sobre
             </a>
-
-            <div className="navbar-item">
+            <a href="#contact-us"  className="navbar-item">
               Cadastro
-            </div>
+            </a>
           </div>
         </div>
       </nav>

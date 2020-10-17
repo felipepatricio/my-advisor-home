@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import About from '../components/About'
 import Form from '../components/Form'
+import Category from '../components/Categories'
 
 import '../styles/Home.module.css'
 
@@ -12,7 +13,6 @@ export default function Home() {
     <>
       <Head>
         <meta charSet="utf-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="keywords" content="bulma, consultoria, desenvolvimento, website, job, free, freelancer" />
         <title>Meu conselheiro</title>
@@ -26,6 +26,7 @@ export default function Home() {
       <main className="main">
         <Header />
         <About />
+        <Category />
         <Form />
       </main>
       <Footer />

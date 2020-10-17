@@ -4,7 +4,13 @@
   width: 100%;
   padding: 16px;
   min-height: 600px;
-  background: url("/designer_1.svg") right bottom no-repeat;
+  background-image: url("/main-header.jpg");
+  background-size: cover;
+}
+@media screen and (max-width: 900px) {
+  .header-container {
+    background: #b4c0e2;
+  }
 }
 
 .header-paragraph {
@@ -13,6 +19,7 @@
   flex-flow: column wrap;
   max-width: 440px;
   padding: 40px 0;
+  color: #FFF;
 }
 
 .header-paragraph > h1 {
